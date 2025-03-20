@@ -2,4 +2,4 @@ User-agent: *
 
 Disallow: /norobots/
 
-Sitemap: https://hesaid.love/sitemap.xml
+Sitemap: https://hesaidlove.com/sitemap.xml
