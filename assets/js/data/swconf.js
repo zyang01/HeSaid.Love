@@ -1,1 +1,1 @@
-const swconf = { cacheName: 'chirpy-1742552614',resources: [ '/assets/css/jekyll-theme-chirpy.css', '/', '/integrity/', '/cuntslied/', '/tags/', '/timeline/', '/about/', '/pgp/', ], interceptor: {paths: [ ],urlPrefixes: [ 'https://hesaidlove.goatcounter.com/counter/' ] }, purge: false };
+const swconf = { cacheName: 'chirpy-1742588682',resources: [ '/assets/css/jekyll-theme-chirpy.css', '/', '/integrity/', '/cuntslied/', '/tags/', '/timeline/', '/about/', '/pgp/', ], interceptor: {paths: [ ],urlPrefixes: [ 'https://hesaidlove.goatcounter.com/counter/' ] }, purge: false };
