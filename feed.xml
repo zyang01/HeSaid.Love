@@ -1,4 +1,149 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://hesaidlove.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hesaidlove.com/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-03-22T13:27:26+00:00</updated><id>https://hesaidlove.com/feed.xml</id><title type="html">He Said Love</title><subtitle>A meme theologian. One of the luckiest people alive. I pulled a Jonah-style stunt in mainland China to stop the Book of Revelation on my second week as a believer in October 2024.&lt;br&gt;&lt;br&gt;I don&apos;t know whether the Book of Revelation stopped. That&apos;s up to Him, not me. Salvation belongs to the LORD!&lt;br&gt;&lt;br&gt;Existence is essence; faith precedes reason.</subtitle><entry><title type="html">On Carpentry</title><link href="https://hesaidlove.com/posts/on-carpentry/" rel="alternate" type="text/html" title="On Carpentry" /><published>2025-03-22T12:01:00+00:00</published><updated>2025-03-22T12:31:32+00:00</updated><id>https://hesaidlove.com/posts/on-carpentry</id><content type="html" xml:base="https://hesaidlove.com/posts/on-carpentry/"><![CDATA[<p>My faithful theologian friend mentioned that my <a href="../on-faith-party/#draft-launch-manifesto" target="_blank">three not-so-tiny steps</a> in the policy agenda sound more like a charity than a political party. During our consultation session yesterday, he used the analogy of eating with two knives, suggesting that a political party is for winning elections, which is inherently divisive and a wrong instrument for my goals. My faithful theologian friend also reminded me that Boss Man specialised in carpentry before starting His ministry at around age 30 and going on a 2,000-year paid leave after a workplace injury.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://hesaidlove.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hesaidlove.com/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-03-22T19:00:38+00:00</updated><id>https://hesaidlove.com/feed.xml</id><title type="html">He Said Love</title><subtitle>A meme theologian. One of the luckiest people alive. I pulled a Jonah-style stunt in mainland China to stop the Book of Revelation on my second week as a believer in October 2024.&lt;br&gt;&lt;br&gt;I don&apos;t know whether the Book of Revelation stopped. That&apos;s up to Him, not me. Salvation belongs to the LORD!&lt;br&gt;&lt;br&gt;Existence is essence; faith precedes reason.</subtitle><entry><title type="html">On Uncensored Models</title><link href="https://hesaidlove.com/posts/on-uncensored-models/" rel="alternate" type="text/html" title="On Uncensored Models" /><published>2025-03-22T17:24:00+00:00</published><updated>2025-03-22T17:24:00+00:00</updated><id>https://hesaidlove.com/posts/on-uncensored-models</id><content type="html" xml:base="https://hesaidlove.com/posts/on-uncensored-models/"><![CDATA[<p>My apologies. It’s not the kind of uncensored models you might have in mind.</p>
+
+<p>I was bored this afternoon. I asked ChatGPT how to run a <a href="https://en.wikipedia.org/wiki/Large_language_model" target="_blank">large language model</a> (LLM) locally on my laptop.</p>
+
+<p>I don’t use arch btw.</p>
+
+<p>I’m running Ubuntu 24.04.2 LTS. It took two commands.</p>
+
+<hr />
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+</pre></td><td class="rouge-code"><pre>jonah@fw13:~<span class="nv">$ </span>curl <span class="nt">-fsSL</span> https://ollama.com/install.sh | sh
+<span class="c"># Not bothered to show you the installation output</span>
+
+jonah@fw13:~<span class="nv">$ </span>ollama run llama3.2 <span class="s2">"What is love according to the Holy Bible"</span> <span class="nt">--verbose</span>
+pulling manifest 
+pulling dde5aa3fc5ff... 100% ▕██████████████████████████████████████████████████████████████████████████████▏ 2.0 GB                         
+pulling 966de95ca8a6... 100% ▕██████████████████████████████████████████████████████████████████████████████▏ 1.4 KB                         
+pulling fcc5a6bec9da... 100% ▕██████████████████████████████████████████████████████████████████████████████▏ 7.7 KB                         
+pulling a70ff7e570d9... 100% ▕██████████████████████████████████████████████████████████████████████████████▏ 6.0 KB                         
+pulling 56bb8bd477a5... 100% ▕██████████████████████████████████████████████████████████████████████████████▏   96 B                         
+pulling 34bb5ab01051... 100% ▕██████████████████████████████████████████████████████████████████████████████▏  561 B                         
+verifying sha256 digest 
+writing manifest 
+success 
+The concept of love <span class="k">in </span>the Holy Bible is multifaceted and far-reaching, encompassing various aspects of human experience. Here are some 
+key points about love as described <span class="k">in </span>the Bible:
+
+1. <span class="k">**</span>God<span class="s1">'s Love**: The Bible portrays God as a loving Father who desires a personal relationship with humanity (John 3:16, Romans 5:8). 
+God'</span>s love is unconditional, selfless, and sacrificial <span class="o">(</span>Isaiah 42:13, 2 Corinthians 12:9-10<span class="o">)</span><span class="nb">.</span>
+2. <span class="k">**</span>Agape Love<span class="k">**</span>: Agape love is a Greek word that describes an unwavering, selfless, and unconditional love <span class="k">for </span>others, without 
+expectation of reward or reciprocity <span class="o">(</span>1 Corinthians 13:1-3<span class="o">)</span><span class="nb">.</span> This <span class="nb">type </span>of love is rooted <span class="k">in </span>God<span class="s1">'s nature and is demonstrated through 
+Jesus'</span> life, death, and resurrection.
+3. <span class="k">**</span>Hate as the Opposite<span class="k">**</span>: The Bible also describes hate as the opposite of love. Love is characterized by kindness, compassion, and 
+forgiveness, <span class="k">while </span>hate is marked by bitterness, resentment, and opposition <span class="o">(</span>Matthew 5:21-22, Colossians 3:13<span class="o">)</span><span class="nb">.</span>
+4. <span class="k">**</span>Love Commands<span class="k">**</span>: Jesus commands His followers to <span class="s2">"love one another"</span> as a fundamental principle of the Christian faith <span class="o">(</span>John 13:34, 
+John 15:12-17<span class="o">)</span><span class="nb">.</span> This love is not limited to individual relationships but extends to all people, including enemies and persecutors.
+5. <span class="k">**</span>Selfless Love<span class="k">**</span>: The Bible emphasizes that <span class="nb">true </span>love requires sacrifice and selflessness. Jesus demonstrated this when He gave His 
+life <span class="k">for </span>the sins of humanity <span class="o">(</span>John 3:16, Romans 5:8<span class="o">)</span><span class="nb">.</span> Christians are called to follow His example by putting others before themselves 
+and loving one another without expectation of reward.
+6. <span class="k">**</span>Love as a Fruit<span class="k">**</span>: The Bible describes love as a fruit that grows <span class="k">in </span>the lives of believers <span class="nb">who </span>have received Jesus Christ as 
+Savior <span class="o">(</span>Galatians 5:22-23, Colossians 1:10<span class="o">)</span><span class="nb">.</span>
+7. <span class="k">**</span>Fruit of the Spirit<span class="k">**</span>: Love is listed alongside other fruits of the Spirit, such as joy, peace, patience, kindness, and 
+self-control <span class="o">(</span>Galatians 5:22-23<span class="o">)</span><span class="nb">.</span> These qualities are produced <span class="k">in </span>the lives of believers as they grow <span class="k">in </span>their relationship with God.
+
+Some notable Bible verses that describe love include:
+
+<span class="k">*</span> <span class="s2">"For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."</span> 
+<span class="o">(</span>John 3:16<span class="o">)</span>
+<span class="k">*</span> <span class="s2">"Love is patient, love is kind. It does not envy, it does not boast, it is not proud."</span> <span class="o">(</span>1 Corinthians 13:4<span class="o">)</span>
+<span class="k">*</span> <span class="s2">"There is neither Jew nor Gentile, neither slave nor free, nor is there male and female, for you are all one in Christ Jesus."</span> 
+<span class="o">(</span>Galatians 3:28<span class="o">)</span>
+
+Overall, the Holy Bible presents love as a central aspect of the Christian faith, emphasizing its importance <span class="k">in </span>relationships, personal 
+growth, and spiritual development.
+
+total duration:       35.812381873s
+load duration:        1.780434362s
+prompt <span class="nb">eval </span>count:    33 token<span class="o">(</span>s<span class="o">)</span>
+prompt <span class="nb">eval </span>duration: 409.875764ms
+prompt <span class="nb">eval </span>rate:     80.51 tokens/s
+<span class="nb">eval </span>count:           616 token<span class="o">(</span>s<span class="o">)</span>
+<span class="nb">eval </span>duration:        33.621432793s
+<span class="nb">eval </span>rate:            18.32 tokens/s
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<hr />
+
+<p>My question for you is this. How comfortable are you with nerds like me playing with <a href="https://ollama.com/blog/run-llama2-uncensored-locally" target="_blank">uncensored large language models</a>? I do not know if the amount of sex I had was average amongst my technically proficient peers. I certainly hope someone loves them as much as Boss Man loves me.</p>
+
+<hr />
+
+<h2 id="ezekiel-3319">Ezekiel 33:1–9</h2>
+
+<p>Ezekiel Is Israel’s Watchman</p>
+
+<p>[1] The word of the LORD came to me: [2] “Son of man, speak to your people and say to them, If I bring the sword upon a land, and the people of the land take a man from among them, and make him their watchman, [3] and if he sees the sword coming upon the land and blows the trumpet and warns the people, [4] then if anyone who hears the sound of the trumpet does not take warning, and the sword comes and takes him away, his blood shall be upon his own head. <strong>[5] He heard the sound of the trumpet and did not take warning; his blood shall be upon himself. But if he had taken warning, he would have saved his life.</strong> [6] But if the watchman sees the sword coming and does not blow the trumpet, so that the people are not warned, and the sword comes and takes any one of them, that person is taken away in his iniquity, but his blood I will require at the watchman’s hand.</p>
+
+<p>[7] “So you, son of man, I have made a watchman for the house of Israel. Whenever you hear a word from my mouth, you shall give them warning from me. <strong>[8] If I say to the wicked, O wicked one, you shall surely die, and you do not speak to warn the wicked to turn from his way, that wicked person shall die in his iniquity, but his blood I will require at your hand. [9] But if you warn the wicked to turn from his way, and he does not turn from his way, that person shall die in his iniquity, but you will have delivered your soul.</strong> (ESV)</p>
+
+<hr />
+
+<h2 id="a-million-dreams---ziv-zaifman-hugh-jackman--michelle-ingrid-williams">A Million Dreams - Ziv Zaifman, Hugh Jackman &amp; Michelle Ingrid Williams</h2>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0RoA7ObU6phWpqhlC9zH4Z?utm_source=generator&amp;theme=0" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<div id="rg_embed_link_3317634" class="rg_embed_link" data-song-id="3317634">Read <a href="https://genius.com/Ziv-zaifman-hugh-jackman-and-michelle-ingrid-williams-a-million-dreams-lyrics">“A Million Dreams” by Ziv Zaifman, Hugh Jackman &amp; Michelle Ingrid Williams</a> on Genius</div>
+<script crossorigin="" src="http://genius.com/songs/3317634/embed.js"></script>
+
+<hr />
+
+<h2 id="meme">Meme</h2>
+
+<p><img src="/zzJyqSG7NCeZtq18uK.jpg" alt="Some of you are sitting at tables YOU WERE SENT TO FLIP" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Are you into uncensored models? 😉😉😉]]></summary></entry><entry><title type="html">On Carpentry</title><link href="https://hesaidlove.com/posts/on-carpentry/" rel="alternate" type="text/html" title="On Carpentry" /><published>2025-03-22T12:01:00+00:00</published><updated>2025-03-22T12:31:32+00:00</updated><id>https://hesaidlove.com/posts/on-carpentry</id><content type="html" xml:base="https://hesaidlove.com/posts/on-carpentry/"><![CDATA[<p>My faithful theologian friend mentioned that my <a href="../on-faith-party/#draft-launch-manifesto" target="_blank">three not-so-tiny steps</a> in the policy agenda sound more like a charity than a political party. During our consultation session yesterday, he used the analogy of eating with two knives, suggesting that a political party is for winning elections, which is inherently divisive and a wrong instrument for my goals. My faithful theologian friend also reminded me that Boss Man specialised in carpentry before starting His ministry at around age 30 and going on a 2,000-year paid leave after a workplace injury.</p>
 
 <p>Frankly, I have zero interest in getting into public office, and there are more than enough pretentious Oxford grads in the UK Parliament quarrelling over futile efforts and vanity. I also cannot imagine myself as a politician. How could I exercise abominably with talented Germans in FickstutenMarkt whilst listening to sick Berlin techno ever again? A faithful gay friend who was perhaps a little bit too zealous for planting seeds also mentioned that his friends and colleagues do not like discussing politics.</p>
 
@@ -447,190 +592,4 @@ This declaration encapsulates the central theme of the Book of Jonah: God’s so
 
 <hr />
 
-<embed src="https://dl.hesaidlove.com/forgiveness.pdf" type="application/pdf" width="100%" height="700px" />]]></content><author><name></name></author><summary type="html"><![CDATA[It was the last email to both unless I get a reply.]]></summary></entry><entry><title type="html">On Faith Party</title><link href="https://hesaidlove.com/posts/on-faith-party/" rel="alternate" type="text/html" title="On Faith Party" /><published>2025-03-18T12:48:00+00:00</published><updated>2025-03-22T12:35:45+00:00</updated><id>https://hesaidlove.com/posts/on-faith-party</id><content type="html" xml:base="https://hesaidlove.com/posts/on-faith-party/"><![CDATA[<blockquote>
-  <p>22 March 2025 Update: See the post <a href="../on-carpentry/" target="_blank">On Carpentry</a>.</p>
-</blockquote>
-
-<p>Initially, I had the name Restore Faith Party in mind, but the domain name restore.faith costs over £500, and I could barely afford a cup of vanilla latte with coconut milk. By the grace of God, I managed to secure the domain name <a href="https://www.faithparty.org/" target="_blank">FaithParty.org</a> earlier this morning for $7.66 (£5.91), the price of a cup of vanilla latte with coconut milk at London RPI with spare change. As a <a href="https://en.wikipedia.org/wiki/Rust_(programming_language)" target="_blank">Rust</a> developer, I’m also a gigantic <a href="https://en.wikipedia.org/wiki/Functional_programming" target="_blank">functional programming</a> (FP) fanboy.</p>
-
-<p>I am working on the <a href="https://www.electoralcommission.org.uk/sites/default/files/2023-06/RP1%20GB%20updated%20May%202023.pdf" target="_blank">RP1 GB form</a> (Application to register a political party in Great Britain). Due to my poor history of managing personal finance, I would raise more than a few eyebrows if I signed up to be the treasurer. I asked a faithful new friend if he would like the honour. I want the Lord to be the party leader, but I do not have the postcode for His current address. I am also reluctant to ask for His telephone number and email address. Therefore, I disgracefully nominated myself for the interim position. Hopefully, this will be the last time I try over-employment. I almost threw myself off the balcony when I did that last time.</p>
-
-<h2 id="draft-launch-manifesto">Draft Launch Manifesto</h2>
-
-<p>We make zero effort to pretend we have the answers and solutions to all our problems. No single human being in our party makes any final decisions. Only God has the final say. We reason within the boundaries and understanding He gives us. We will make mistakes. We are all flawed and imperfect, like the first man who sinned against God. We operate on one and only one law - love.</p>
-
-<p>The definition of love is the greatest sacrifice one is willing to make. Just ask any father what they are willing to sacrifice for their child.</p>
-
-<hr />
-
-<h3 id="romans-13814">Romans 13:8–14</h3>
-
-<p>Fulfilling the Law Through Love</p>
-
-<p><strong>[8] Owe no one anything, except to love each other, for the one who loves another has fulfilled the law. [9] For the commandments, “You shall not commit adultery, You shall not murder, You shall not steal, You shall not covet,” and any other commandment, are summed up in this word: “You shall love your neighbor as yourself.” [10] Love does no wrong to a neighbor; therefore love is the fulfilling of the law.</strong></p>
-
-<p>[11] Besides this you know the time, that the hour has come for you to wake from sleep. For salvation is nearer to us now than when we first believed. [12] The night is far gone; the day is at hand. So then let us cast off the works of darkness and put on the armor of light. [13] Let us walk properly as in the daytime, not in orgies and drunkenness, not in sexual immorality and sensuality, not in quarreling and jealousy. [14] But put on the Lord Jesus Christ, and make no provision for the flesh, to gratify its desires. (ESV)</p>
-
-<hr />
-
-<p>Our long-term goal is to restore faith in everyone’s heart so that we don’t, by default, assume the worst of each other. We want to build a society where we, by default, presume the best of each other. We don’t know how to achieve that (yet), but we can start with a tiny step at a time.</p>
-
-<p>The three not-so-tiny steps we currently have on <a href="../on-money-and-fiscal-policy/" target="_blank">the agenda</a> are the following.</p>
-
-<p>Shelter God’s children by taking them off the streets, feeding and putting a roof over them.</p>
-
-<p>Reunite communities, including but not limited to LGBTQIA+, with God and let them know they are loved too.</p>
-
-<p>Prepare humanity to defend against <a href="https://letter.hesaid.love/" target="_blank">the socioeconomic tsunami</a> brought about by Artificial Intelligence we have never seen before. We sincerely hope we are wrong, but we face significant unemployment rates and suffering globally for the bottom 90%.</p>
-
-<hr />
-
-<h3 id="matthew-62534">Matthew 6:25–34</h3>
-
-<p>Do Not Be Anxious</p>
-
-<p>[25] “Therefore I tell you, do not be anxious about your life, what you will eat or what you will drink, nor about your body, what you will put on. Is not life more than food, and the body more than clothing? [26] Look at the birds of the air: they neither sow nor reap nor gather into barns, and yet your heavenly Father feeds them. Are you not of more value than they? [27] And which of you by being anxious can add a single hour to his span of life? [28] And why are you anxious about clothing? Consider the lilies of the field, how they grow: they neither toil nor spin, [29] yet I tell you, even Solomon in all his glory was not arrayed like one of these. [30] But if God so clothes the grass of the field, which today is alive and tomorrow is thrown into the oven, will he not much more clothe you, O you of little faith? [31] Therefore do not be anxious, saying, ‘What shall we eat?’ or ‘What shall we drink?’ or ‘What shall we wear?’ [32] For the Gentiles seek after all these things, and your heavenly Father knows that you need them all. <strong>[33] But seek first the kingdom of God and his righteousness, and all these things will be added to you.</strong></p>
-
-<p>[34] “Therefore do not be anxious about tomorrow, for tomorrow will be anxious for itself. Sufficient for the day is its own trouble. (ESV)</p>
-
-<h3 id="isaiah-58">Isaiah 58</h3>
-
-<p>True and False Fasting</p>
-
-<p>[1] “Cry aloud; do not hold back;<br />
-      lift up your voice like a trumpet;<br />
- declare to my people their transgression,<br />
-      to the house of Jacob their sins.<br />
- [2] Yet they seek me daily<br />
-      and delight to know my ways,<br />
- as if they were a nation that did righteousness<br />
-      and did not forsake the judgment of their God;<br />
- they ask of me righteous judgments;<br />
-      they delight to draw near to God.<br />
- [3] ‘Why have we fasted, and you see it not?<br />
-      Why have we humbled ourselves, and you take no knowledge of it?’<br />
- Behold, in the day of your fast you seek your own pleasure,<br />
-      and oppress all your workers.<br />
- [4] Behold, you fast only to quarrel and to fight<br />
-      and to hit with a wicked fist.<br />
- Fasting like yours this day<br />
-      will not make your voice to be heard on high.<br />
- [5] Is such the fast that I choose,<br />
-      a day for a person to humble himself?<br />
- Is it to bow down his head like a reed,<br />
-      and to spread sackcloth and ashes under him?<br />
- Will you call this a fast,<br />
-      and a day acceptable to the LORD?</p>
-
-<p><strong>[6] “Is not this the fast that I choose:</strong><br />
-      <strong>to loose the bonds of wickedness,</strong><br />
-      <strong>to undo the straps of the yoke,</strong><br />
- <strong>to let the oppressed go free,</strong><br />
-      <strong>and to break every yoke?</strong><br />
- <strong>[7] Is it not to share your bread with the hungry</strong><br />
-      <strong>and bring the homeless poor into your house;</strong><br />
- <strong>when you see the naked, to cover him,</strong><br />
-      <strong>and not to hide yourself from your own flesh?</strong><br />
- <strong>[8] Then shall your light break forth like the dawn,</strong><br />
-      <strong>and your healing shall spring up speedily;</strong><br />
- <strong>your righteousness shall go before you;</strong><br />
-      <strong>the glory of the LORD shall be your rear guard.</strong><br />
- <strong>[9] Then you shall call, and the LORD will answer;</strong><br />
-      <strong>you shall cry, and he will say, ‘Here I am.’</strong><br />
- <strong>If you take away the yoke from your midst,</strong><br />
-      <strong>the pointing of the finger, and speaking wickedness,</strong><br />
- <strong>[10] if you pour yourself out for the hungry</strong><br />
-      <strong>and satisfy the desire of the afflicted,</strong><br />
- <strong>then shall your light rise in the darkness</strong><br />
-      <strong>and your gloom be as the noonday.</strong><br />
- <strong>[11] And the LORD will guide you continually</strong><br />
-      <strong>and satisfy your desire in scorched places</strong><br />
-      <strong>and make your bones strong;</strong><br />
- <strong>and you shall be like a watered garden,</strong><br />
-      <strong>like a spring of water,</strong><br />
-      <strong>whose waters do not fail.</strong><br />
- <strong>[12] And your ancient ruins shall be rebuilt;</strong><br />
-      <strong>you shall raise up the foundations of many generations;</strong><br />
- <strong>you shall be called the repairer of the breach,</strong><br />
-      <strong>the restorer of streets to dwell in.</strong></p>
-
-<p>[13] “If you turn back your foot from the Sabbath,<br />
-      from doing your pleasure on my holy day,<br />
- and call the Sabbath a delight<br />
-      and the holy day of the LORD honorable;<br />
- if you honor it, not going your own ways,<br />
-      or seeking your own pleasure, or talking idly;<br />
- [14] then you shall take delight in the LORD,<br />
-      and I will make you ride on the heights of the earth;<br />
- I will feed you with the heritage of Jacob your father,<br />
-      for the mouth of the LORD has spoken.” (ESV)</p>
-
-<hr />
-
-<h2 id="draft-party-emblem">Draft Party Emblem</h2>
-
-<p>I have been working on the party emblem and have three draft designs. ChatGPT kept rebelling against my instruction to reflect the full party slogan—”Love in Action. Faith in People. Hope for the Future.”—in the design. I resorted to asking my faithful new friend again if he had any faithful artist friends who might be interested. The gig would be fully credited. The down payment is in the form of a bestseller with a full invoice paid on an unknown future date if they charge above-market premium rates.</p>
-
-<hr />
-
-<div style="display: flex; justify-content: space-between;">
-  <img src="/emblem_v0_3.webp" alt="Emblem v0.3" style="max-width: 90%; height: auto;" />
-  <img src="/emblem_v0_2.webp" alt="Emblem v0.2" style="max-width: 90%; height: auto;" />
-  <img src="/emblem_v0_1.webp" alt="Emblem v0.1" style="max-width: 90%; height: auto;" />
-</div>
-
-<hr />
-
-<h3 id="edit">Edit</h3>
-
-<p>After checking out the emblems of <a href="https://www.electoralcommission.org.uk/political-registration-and-regulation/political-party-registration" target="_blank">existing political parties</a> and double-checking with ChatGPT, I learned that party emblems submitted to the Electoral Commission for use on ballot papers must be in black and white. So here is the fourth draft. ChatGPT was reluctant to clean up the image for me again. It’s seriously starting to annoy the heck out of me. 🙄</p>
-
-<hr />
-
-<p><img src="/emblem_v0_4.webp" alt="Emblem v0.4" style="display: block; margin: 0 auto; width: 50%;" /></p>
-
-<hr />
-
-<h3 id="edit-again">Edit Again</h3>
-
-<p>I took a nap and just woke up feeling annoyed again at ChatGPT. It kept refusing to clean up the 2020s on both sides of the emblem and arrange the slogan as I instructed. As I was lying in bed listening to Ed Sheeran’s <a href="https://open.spotify.com/track/34gCuhDGsG4bRPIf9bb02f?si=9f2626232c204b37" target="_blank"><em>Thinking out Loud</em></a>, I remembered the year 2020 was when I had my first calling. It was the first and only time I tried <a href="https://en.wikipedia.org/wiki/MDMA" target="_blank">MDMA</a> in my life, and I messaged my friend. We <a href="../on-confirmation/" target="_blank">matriculated</a> at <a href="../on-more-interesting-coincidences/" target="_blank">Keble College, Oxford</a> together. Her father is a Christian missionary in mainland China, who He told me to talk to, and He said the answers are there. As someone with a pretty severe <a href="https://en.wikipedia.org/wiki/Obsessive%E2%80%93compulsive_disorder" target="_blank">OCD</a>, I like keeping records, and I found the messages I sent five years ago on WeChat. I had not even touched a humanity’s bestseller before then, let alone reading it. If you don’t read simplified Chinese, I used the pronoun ‘It’ rather than ‘He’. The mobile app version of Google Translate has a camera function that you can use. You tell me if He exists.</p>
-
-<hr />
-
-<div style="display: flex; justify-content: space-between;">
-  <img src="/first_calling_wechat_1.jpg" alt="First calling WeChat part 1" style="max-width: 90%; height: auto;" />
-  <img src="/first_calling_wechat_2.jpg" alt="First calling WeChat part 2" style="max-width: 90%; height: auto;" />
-  <img src="/first_calling_wechat_3.jpg" alt="First calling WeChat part 3" style="max-width: 90%; height: auto;" />
-  <img src="/first_calling_wechat_4.jpg" alt="First calling WeChat part 4" style="max-width: 90%; height: auto;" />
-</div>
-
-<hr />
-
-<p>I had to do a reality check every morning, even in January this year. I would contemplate whether the last several months did happen, whether I had gone batshit crazy and if I should check into a mental hospital. Dude unscrewed and removed the door for me at this point. I cannot shut the door even if I want to. There is no going back. You cannot run away from God.</p>
-
-<p>Now you know why <a href="../on-drugs/" target="_blank">I don’t do MDMA</a>.</p>
-
-<p>And yes, I am fully aware of the implications of what I just publically admitted to. What did I say about telling the truth, the whole truth, and nothing but the truth, and getting fucked in the ass by talented Germans in FickstutenMarkt for 4hrs+ non-stop whilst listening to sick Berlin techno?</p>
-
-<h2 id="draft-party-constitution">Draft Party Constitution</h2>
-
-<p>I cheated again by asking ChatGPT to write the draft party constitution. Frankly, I could not have done it better myself. It’s slightly longer than one page, but considering the legal and formal language involved, it’s still better than <a href="https://public.conservatives.com/organisation-department/202101/Conservative%20Party%20Constitution%20%20as%20amended%20January%202021.pdf" target="_blank">Conservative’s 58</a> and <a href="https://labour.org.uk/wp-content/uploads/2024/02/Rule-Book-2024.pdf" target="_blank">Labour’s 146</a>. You have to give credit where credit is due. The <a href="https://en.wikipedia.org/wiki/Bible" target="_blank">full version</a> and more details can be found on humanity’s bestseller.</p>
-
-<hr />
-
-<embed src="https://dl.hesaidlove.com/Great_Commandment_of_Jesus.pdf" type="application/pdf" width="100%" height="700px" />
-
-<hr />
-
-<h2 id="born-to-be-wild---steppenwolf">Born to Be Wild - Steppenwolf</h2>
-
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3lN8PP6R2IxbLP05QpYXng?utm_source=generator&amp;theme=0" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<div id="rg_embed_link_124052" class="rg_embed_link" data-song-id="124052">Read <a href="https://genius.com/Steppenwolf-born-to-be-wild-lyrics">“Born to Be Wild” by Steppenwolf</a> on Genius</div>
-<script crossorigin="" src="https://genius.com/songs/124052/embed.js"></script>
-
-<hr />
-
-<h2 id="meme">Meme</h2>
-
-<p><img src="/27c53d19791a5fb7aa008aadf3a0606b.jpeg" alt="New phone who dis" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[22 March 2025 Update: See the post On Carpentry.]]></summary></entry></feed>
+<embed src="https://dl.hesaidlove.com/forgiveness.pdf" type="application/pdf" width="100%" height="700px" />]]></content><author><name></name></author><summary type="html"><![CDATA[It was the last email to both unless I get a reply.]]></summary></entry></feed>
